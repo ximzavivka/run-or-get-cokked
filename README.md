@@ -1,4 +1,4 @@
-# Run or Get COOKED
+# 🧑‍🍳 Run or Get COOKED 🧑‍🍳
 
 **Super Mario** and **Pac-man** are both highly influenced in this game. Because the hackathon's subject is **food**, So, I decided to make this game called **Run or get cooked**. Instead of Pac-Man or Mario, we get a charming **lobster** attempting to **flee** from the chef who intends to cook him. Let's see whether the lobster can make it.
 
