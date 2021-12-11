@@ -1,0 +1,44 @@
+------------------------------------------------------------
+CMPUT 275 Winter 2014
+
+Title: Horde
+Team Members: Ross Anderson, Andrew Bradshaw
+
+Created: March 19, 2014
+Last Updated: March 24, 2014
+
+Description:
+A 2D side-view survival game. The game will look like a typical Mario-style 2D side-view game. It will take place in a single room/map, and enemies will be spawned from predefined locations on the outside of the map. Enemies will chase down the player, and the player's goal will be to punch or jump on the enemies to eliminate them and surivive as long as possible. 
+
+For simplicity, relative depth will be accomplished with a static z-index per class, and arbitrary depth within classes based on object creation order.
+
+For Zach's feedback: the game will be similar in concept to Heli Attack (http://174.120.103.90/images-freegameaccess/heli-attack-2-big.jpg) except with a contained space and jumping/punching instead of guns.
+
+The code will use classes and inheritance to model the monsters.
+The project will be written in Python 3 using pygame.
+
+Milestone 1:
+Basic rendering of character model and map. Character movement in response to input. Physics (floors + walls).
+
+Milestone 2:
+Stationary monsters that spawn at irregular intervals at predefined locations.
+Character can jump on a monster to kill it.
+
+Milestone 3:
+Monsters chase character unintelligently. Character has health, and can be damaged by monsters. 
+Character can punch/kick to kill monsters. 
+
+Milestone 4:
+Point tracking + local highscores. Game ends when character health reaches 0.
+Title screen.
+
+Optional:
+Teleportation from various locations in the level.
+Multiple level geometries.
+Online highscores.
+Other monster types (spiky, fast, double-health, etc)
+Other monster AIs/strategies (i.e. A* pathfinding, different "AIs" use different heuristics)
+
+
+Our demonstration will be a playable version of the game.
+-------------------------------------------------------------
